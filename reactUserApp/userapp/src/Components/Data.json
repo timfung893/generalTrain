@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": " Tran Hoang Tan",
+    "phone": "097797797",
+    "right": 1
+  },
+  {
+    "id": 2,
+    "name": "Pham Huu Hau",
+    "phone": "097797797",
+    "right": 2
+  },
+  {
+    "id": 3,
+    "name": "Bui Ngoc Ha",
+    "phone": "097797797",
+    "right": 3
+  },
+  {
+    "id": 4,
+    "name": "Pham Thuy An",
+    "phone": "097797797",
+    "right": 2
+  },
+  {
+    "id": 5,
+    "name": "Nguyen Thuc Doan",
+    "phone": "097797797",
+    "right": 1
+  }
+]

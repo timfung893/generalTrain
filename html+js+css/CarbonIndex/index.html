@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Carbon Index</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="container">
+    <img
+      src="./images/plants-people.png"
+      alt="an image with plant and people"
+    />
+    <div class="info">
+      <h1 class="title">Welcome To Your Personal Carbon Trigger!</h1>
+      <form action="" class="form-data" autocomplete="on">
+        <div>
+          <label for="region">Region Name</label>
+          <input type="text" id="region" required class="region-name" />
+        </div>
+        <div>
+          <label for="api">Your API Key</label>
+          <input type="text" id="api" required class="api-key" />
+        </div>
+        <button class="search-btn">Submit</button>
+      </form>
+      <div class="result">
+        <div class="loading">loading...</div>
+        <div class="errors"></div>
+        <div class="data"></div>
+        <div class="result-container">
+          <p class="my-region"><strong>Region:</strong></p>
+          <p class="carbon-usage"><strong>Carbon Usage:</strong></p>
+          <p class="fossil-fuel"><strong>Fossil Fuel Percentage:</strong></p>
+        </div>
+        <button class="clear-btn">Change region</button>
+      </div>
+      <!-- region -->
+      <!-- index -->
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
